@@ -69,6 +69,15 @@ Common environment variables:
 - `AGM_MODEL_WORK`
 - `AGM_MODEL_WORK_FALLBACK`
 
+## Documentation
+
+- `docs/architecture.md` - system architecture and module boundaries
+- `docs/data-model.md` - schema and lifecycle model
+- `docs/pipeline.md` - job flow and orchestration behavior
+- `docs/backends.md` - backend integration details
+- `docs/json-contracts.md` - CLI/API output contracts
+- `docs/protocol.md` - app-server protocol notes
+
 ## Developer Validation
 
 ```bash

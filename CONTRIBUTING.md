@@ -36,3 +36,4 @@ uv run python -m pytest -m "not slow" -q
 - Keep changes focused to one intent.
 - Update tests when behavior changes.
 - Keep command output JSON-compatible where applicable.
+- Update `docs/` when architecture or behavior changes.

@@ -1,0 +1,24 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Test/lint caches
+.coverage
+.pytest_cache/
+.ruff_cache/
+
+# agm local workspace
+.agm/
+
+# claude code
+.claude/worktrees/
+
+# Generated build metadata (written by make sync / post-merge rebuild)
+src/agm/_build_meta.py

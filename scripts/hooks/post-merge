@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Rebuild the global `agm` binary after merging new code.
+set -e
+echo "post-merge: rebuilding global agm binary..."
+make -C "$(git rev-parse --show-toplevel)/.." install-bin

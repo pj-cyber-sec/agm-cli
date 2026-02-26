@@ -1,0 +1,6 @@
+{
+  "include": ["src/agm"],
+  "typeCheckingMode": "basic",
+  "pythonVersion": "3.12",
+  "reportMissingTypeStubs": false
+}
